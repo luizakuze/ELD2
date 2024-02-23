@@ -57,3 +57,25 @@ force -freeze sim:/nand_gate/a 0 0, 1 1min, 0 2min, 1 3min -r 5min
 force -freeze sim:/nand_gate/b 0 0, 1 2min -r 7min
 run 1hr
 ```
+
+## Simulação no Quartus Prime:
+
+1. **Abrir um Projeto:**
+   - Selecione "File" > "Open...".
+
+2. **Compilar o Projeto:**
+   - Compile o projeto clicando em "Processing" > "Start Compilation".
+
+3. **Criar uma Simulação:**
+   - Vá para "Tools" > "Run Simulation Tool" > "RTL Simulation". Isso abrirá o ModelSim com sua designação compilada.
+
+4. **Executar a Simulação:**
+   - No ModelSim, compile e execute sua simulação com os comandos `vcom` e `vsim`.
+
+## Automação com ModelSim:
+
+1. **Preparar o Script:**
+   - Crie um arquivo de script ModelSim (por exemplo, `tb_nand.do`) e adicione os comandos necessários para compilar e executar a simulação.
+
+2. **Executar o Script:**
+   - Execute com o comando `do tb_nand.do`.
