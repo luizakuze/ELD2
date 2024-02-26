@@ -10,7 +10,7 @@
 
 - Compilação do arquivo VHDL da porta NAND
   - `vcom -93 -work work {/home/luiza.k12/eld2/nand_gate/nand_gate.vhd}`
-  <!--- Use este comando se o caminho correto for este: `vcom -93 -work work {/../../nand_gate.vhd}` -->
+  <!--- Use este comando se o caminho correto for este: `vcom -93 -work work {../../nand_gate.vhd}` -->
 
 - Inicialização da simulação
   - `vsim work.nand_gate(ifsc_v1)`
