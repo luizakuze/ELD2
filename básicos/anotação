@@ -1,1 +1,48 @@
 sftp://luiza.k12@quartus.sj.ifsc.edu.br//home/luiza.k12
+
+
+
+do mux4x1_run_msim_rtl_vhdl.do
+vlib rtl_work
+vmap work rtl_work
+vcom -93 -work work {../../mux4x1.vhd}
+
+vsim work.mux4x1
+
+do wave.do
+force -freeze sim:/mux4x1/X 1010 0
+run
+force -freeze sim:/mux4x1/Sel 11 0
+run
+force -freeze sim:/mux4x1/Sel 10 0
+run
+
+
+
+
+
+
+
+onerror {resume}
+quietly WaveActivateNextPane {} 0
+add wave -noupdate /mux4x1/X
+add wave -noupdate /mux4x1/Sel
+add wave -noupdate /mux4x1/Y
+TreeUpdate [SetDefaultTree]
+WaveRestoreCursors {{Cursor 1} {345 ps} 0}
+quietly wave cursor active 1
+configure wave -namecolwidth 150
+configure wave -valuecolwidth 100
+configure wave -justifyvalue left
+configure wave -signalnamewidth 1
+configure wave -snapdistance 10
+configure wave -datasetprefix 0
+configure wave -rowmargin 4
+configure wave -childrowmargin 2
+configure wave -gridoffset 0
+configure wave -gridperiod 1
+configure wave -griddelta 40
+configure wave -timeline 0
+configure wave -timelineunits ns
+update
+WaveRestoreZoom {0 ps} {315 ps}
