@@ -1,8 +1,12 @@
+## Modelsim e Arquivo de Projeto
+
+```
 sftp://luiza.k12@quartus.sj.ifsc.edu.br//home/luiza.k12
+```
 
-
-
-do mux4x1_run_msim_rtl_vhdl.do
+### Testbench - Modelsim
+#### Arquivo tb_XXXX.do
+```
 vlib rtl_work
 vmap work rtl_work
 vcom -93 -work work {../../mux4x1.vhd}
@@ -16,13 +20,10 @@ force -freeze sim:/mux4x1/Sel 11 0
 run
 force -freeze sim:/mux4x1/Sel 10 0
 run
+```
 
-
-
-
-
-
-
+#### Arquivo wave.do
+```
 onerror {resume}
 quietly WaveActivateNextPane {} 0
 add wave -noupdate /mux4x1/X
@@ -46,7 +47,4 @@ configure wave -timeline 0
 configure wave -timelineunits ns
 update
 WaveRestoreZoom {0 ps} {315 ps}
-
-
-
-
+```
