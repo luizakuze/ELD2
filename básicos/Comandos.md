@@ -1,4 +1,4 @@
-# Resumo dos Comandos para Utilização do Quartus Prime e ModelSim
+# Resumo dos Comandos para Utilização do Quartus Prime 
 
 ## Acesso via SSH e Abertura do Quartus Prime:
 ```
