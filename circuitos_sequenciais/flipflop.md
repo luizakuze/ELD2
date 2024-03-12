@@ -16,7 +16,7 @@
 - Utilizar with select, when else para construções concorrentes.
 
 ## Habilitar Sugestões Automáticas
--``Tools > Options > Text Editor > Autocomplete Text``
+- ``Tools > Options > Text Editor > Autocomplete Text``
 - Observar que certas opções podem aparecer somente após o processo de fitter!!! (painel task)
 
 ## Incluir Bibliotecas
