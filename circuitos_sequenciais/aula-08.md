@@ -1,3 +1,5 @@
+# FF tipo D
+```vhdl
 library ieee;
 -- STD_LOGIC and STD_LOGIC_VECTOR types, and relevant functions
 use ieee.std_logic_1164.all;
@@ -66,7 +68,7 @@ end entity;
 --	end process;
 --end architecture;
 
-architecture ifsc_v4 of ff_D is
+architecture ifsc_v5 of ff_D is
 begin
 	process (clock,reset)
 	begin
@@ -91,16 +93,15 @@ configuration cfg_ifsc of ff_D is
 -- for ifsc_v1 end for;
 -- for ifsc_v2 end for;
 --for ifsc_v3 end for;
-for ifsc_v4 end for;
+-- for ifsc_v4 end for;
+for ifsc_v5 end for;
 end configuration;
+````
 
 
 
-
-
-
-
-
+# Outra arquitetura
+```vhdl
 architecture ifsc_v5 of ff_D is
 begin
 L1: 
@@ -135,6 +136,7 @@ end architecture;
 --clock, preset, enable, reset, d: in std_LOGIC; q: out std_LOGIC);
 	--	d: in std_LOGIC_VECTOR(N-1 downto 0);
 	-- q: out std_LOGIC_VECTOR(N-1 downto 0);
+```
 
 
 
@@ -150,10 +152,8 @@ end architecture;
 
 
 
-
-
-
-
+# Outra arquitetura
+```vhdl
 library ieee;
 -- STD_LOGIC and STD_LOGIC_VECTOR types, and relevant functions
 use ieee.std_logic_1164.all;
@@ -191,3 +191,4 @@ l2: for k in 1 to N-1 generate
 configuration cfg_ifsc2 of shift_reg is
 	for ifsc_v1 end for;
 end configuration;
+```
