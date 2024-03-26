@@ -1,3 +1,5 @@
+# Para Preset
+
 ## Preset Síncrono:
 ```vhdl
 process (clock, preset)
@@ -24,3 +26,16 @@ begin
    end if;
 end process;
 ```
+
+---
+
+# Para Contadores
+
+## Contador Síncrono
+- Utiliza reset síncrono
+- Mudança imediata: ``9 > 0``
+
+## Contador Assíncrono
+- Ruim!
+- Utiliza reset assíncrono
+- Mudança não é imediata: ``9 > 10 > 0``. Tempo mínimo em '10'
