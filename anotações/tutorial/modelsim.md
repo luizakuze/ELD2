@@ -1,5 +1,7 @@
 ## Testbench - Modelsim 
 
+- Comando para executar: ``do tb_XXXX.do``
+
 ### Modelo tb_XXXX.do
 ```vhd
 vlib rtl_work
