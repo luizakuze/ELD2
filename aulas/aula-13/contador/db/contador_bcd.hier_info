@@ -1,0 +1,27 @@
+|contador_bcd
+clk => count_u[0].CLK
+clk => count_u[1].CLK
+clk => count_u[2].CLK
+clk => count_u[3].CLK
+clk => count_d[0].CLK
+clk => count_d[1].CLK
+clk => count_d[2].CLK
+clk => count_d[3].CLK
+rst => count_u[0].ACLR
+rst => count_u[1].ACLR
+rst => count_u[2].ACLR
+rst => count_u[3].ACLR
+rst => count_d[0].ACLR
+rst => count_d[1].ACLR
+rst => count_d[2].ACLR
+rst => count_d[3].ACLR
+dezena[0] <= count_d[0].DB_MAX_OUTPUT_PORT_TYPE
+dezena[1] <= count_d[1].DB_MAX_OUTPUT_PORT_TYPE
+dezena[2] <= count_d[2].DB_MAX_OUTPUT_PORT_TYPE
+dezena[3] <= count_d[3].DB_MAX_OUTPUT_PORT_TYPE
+unidade[0] <= count_u[0].DB_MAX_OUTPUT_PORT_TYPE
+unidade[1] <= count_u[1].DB_MAX_OUTPUT_PORT_TYPE
+unidade[2] <= count_u[2].DB_MAX_OUTPUT_PORT_TYPE
+unidade[3] <= count_u[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

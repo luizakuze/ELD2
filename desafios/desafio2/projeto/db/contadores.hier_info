@@ -1,0 +1,17 @@
+|contadores
+clock => count[0].CLK
+clock => count[1].CLK
+clock => count[2].CLK
+reset => count[0].ALOAD
+reset => count[1].ACLR
+reset => count[2].ALOAD
+dir => count[0].ADATA
+dir => count[2].ADATA
+dir => count.OUTPUTSELECT
+dir => count.OUTPUTSELECT
+dir => count.OUTPUTSELECT
+q[0] <= count[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= count[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= count[2].DB_MAX_OUTPUT_PORT_TYPE
+
+

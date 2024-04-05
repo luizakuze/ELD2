@@ -1,0 +1,19 @@
+Quartus Prime Archive log --	/home/luiza.k12/eld2/aula-03/mux4x1.qarlog
+
+Archive:	/home/luiza.k12/eld2/aula-03/mux4x1.qar
+Date:		Wed Feb 28 14:23:21 2024
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/home/luiza.k12/eld2/aula-03/mux4x1.qpf
+/home/luiza.k12/eld2/aula-03/mux4x1.qsf
+/home/luiza.k12/eld2/aula-03/mux4x1.vhd
+/home/luiza.k12/eld2/aula-03/simulation/modelsim/tb_mux4x1_v1.do
+/home/luiza.k12/eld2/aula-03/simulation/modelsim/tb_mux4x1_v2.do
+/home/luiza.k12/eld2/aula-03/simulation/modelsim/tb_mux4x1_v3.do
+/home/luiza.k12/eld2/aula-03/simulation/modelsim/wave.do
+/opt/intelFPGA/20.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 8 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

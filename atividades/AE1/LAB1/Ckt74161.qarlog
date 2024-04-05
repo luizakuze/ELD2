@@ -1,0 +1,15 @@
+Quartus Prime Archive log --	/home/luiza.k12/eld2/LAB1/Ckt74161.qarlog
+
+Archive:	/home/luiza.k12/eld2/LAB1/Ckt74161.qar
+Date:		Thu Mar  7 22:22:01 2024
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/home/luiza.k12/eld2/LAB1/Ckt74161.bdf
+/home/luiza.k12/eld2/LAB1/Ckt74161.qpf
+/home/luiza.k12/eld2/LAB1/Ckt74161.qsf
+/opt/intelFPGA/20.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 4 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

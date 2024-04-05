@@ -1,0 +1,16 @@
+Quartus Prime Archive log --	/home/luiza.k12/eld2/desafio/contadores.qarlog
+
+Archive:	/home/luiza.k12/eld2/desafio/contadores.qar
+Date:		Wed Apr  3 19:43:42 2024
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/home/luiza.k12/eld2/desafio/contadores.qpf
+/home/luiza.k12/eld2/desafio/contadores.qsf
+/home/luiza.k12/eld2/desafio/contadores.vhd
+/home/luiza.k12/eld2/desafio/sdc1.sdc
+/opt/intelFPGA/20.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 5 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
