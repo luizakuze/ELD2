@@ -1,0 +1,9 @@
+1) Optimization Technique usada: Power (Agressive)
+
+2) Fitter Initial Placement Seed usada: 1
+
+3) Parâmetros usados no Synopsys Design Constraints File: 9
+
+4) O caminho crítico e o tempo obtido: a[9] para y[4] com tempo de 6.562 ns
+
+Obs: Utilizar Fast Model!!
