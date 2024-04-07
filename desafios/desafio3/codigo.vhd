@@ -14,7 +14,7 @@ entity contador is
 	port (
 		clk, rst: in std_logic;
 		OPA: out std_logic;
-		dezena, unidade: out std_logic_vector (1 downto 0)
+		dezena, unidade: out std_logic_vector (3 downto 0)
 	);
 end entity;
 
@@ -34,6 +34,7 @@ begin
 			-- verifica se chegou em MAX_DU
 			if (MAX_D = count_d and MAX_U = count_u) then
 				OPA <= '1';
+				
 				-- verifica se tem unidade disponivel
 			elsif (count_u = 9) then
 				count_u := 0;
@@ -71,7 +72,13 @@ begin
 			-- verifica se chegou em MAX_DU
 			if (MAX_D = count_d and MAX_U = count_u) then
 				OPA <= '1';
-				-- verifica se tem unidade disponivel
+				
+			-- verifica condicao mudanca 9->10	
+			elsif (count_d = 0 and count_u = 9) then -- 9 (unidade) + 6 ---> 1111 (15)
+				count_u := 5;
+				count_d := 1;
+				
+			-- verifica se tem unidade disponivel
 			elsif (count_u = 9) then
 				count_u := 0;
 				
