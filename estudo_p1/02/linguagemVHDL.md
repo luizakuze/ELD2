@@ -25,7 +25,11 @@ port (
      );
 end entity;
 ```
-- Atribuição de *variável* tem efeito imediato.
+#### notas
+- Atribuição de **variável** tem efeito imediato.
+- **generic** define uma constante genérica que pode ser usada e alterada a qualquer momento e define-se na entity.
+- já a **constant** atrubui um valor constante, mas defini-se na architecture e não pode ter seu valor alterado. 
+- **PORT**: Declara I/O (input/output).
 
 ## Architecture
 Implementações do projeto;
