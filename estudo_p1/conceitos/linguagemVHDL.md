@@ -6,8 +6,8 @@ descrevem, elementos e componentes já programados para serem
 reutilizados.
 ```vhdl
 library ieee;
-use ieee.std_logic_1164.all; -- fornece tipo std_logic e operadores and, nand, or...
-use ieee.numeric_std.all; -- operações matemáticas '+', '-', '>'... fornece os tipos signed e unsigned
+use ieee.std_logic_1164.all; -- tipos std_logic e std_ulogic
+use ieee.numeric_std.all; -- tipos signed e unsigned
 ```
 
 
