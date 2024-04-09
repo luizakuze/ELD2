@@ -1,0 +1,11 @@
+Versão 1
+- Fmax = 1028.81 MHz
+- Elementos Lógicos = 13
+
+Versão 2
+- Fmax = 882.61 MHz
+- Elementos Lógicos = 19
+
+Versão 3
+- Fmax = 1096.49 MHz
+- Elementos Lógicos = 11

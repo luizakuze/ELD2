@@ -8,8 +8,8 @@ use ieee.numeric_std.all;
 
 entity contador is
 	generic(
-		MAX_D : natural := 1;
-		MAX_U : natural := 7
+		MAX_D : natural := 2;
+		MAX_U : natural := 3
 	);
 	port (
 		clk, rst: in std_logic;
