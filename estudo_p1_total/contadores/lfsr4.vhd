@@ -59,6 +59,6 @@ begin
 end with_zero_arch;
 
 configuration lfsr_cfg of lfsr4 is
---    for no_zero_arch end for;
-    for with_zero_arch end for;
+    for no_zero_arch end for;
+--    for with_zero_arch end for;
 end configuration;

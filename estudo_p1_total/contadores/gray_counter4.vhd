@@ -5,14 +5,14 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 entity gray_counter4 is
+   generic(WIDTH: natural := 4);
    port(
       clk, reset: in std_logic;
-      q: out std_logic_vector(3 downto 0)
+      q: out std_logic_vector(WIDTH-1 downto 0)
    );
 end gray_counter4;
 
 architecture arch of gray_counter4 is
-   constant WIDTH: natural := 4;
    signal g_reg: unsigned(WIDTH-1 downto 0);
    signal g_next, b, b1: unsigned(WIDTH-1 downto 0);
 begin

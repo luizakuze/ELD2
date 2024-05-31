@@ -94,6 +94,8 @@ begin
    d10 <= std_logic_vector(d10_reg);
    d100 <= std_logic_vector(d100_reg);
 end architecture;
+
+
 --=============================
 -- Listing 9.12 asynchronous
 --=============================
@@ -145,7 +147,7 @@ end architecture;
 
 
 configuration dc_cfg of decimal_counter is
---    for concurrent_arch end for;
+   for concurrent_arch end for;
 --    for if_arch end for;
-    for assinc_arch end for;
+--    for assinc_arch end for;
 end configuration;
