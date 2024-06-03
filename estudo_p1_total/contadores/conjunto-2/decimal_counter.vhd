@@ -10,7 +10,6 @@ entity decimal_counter is
       d1, d10, d100: out std_logic_vector(3 downto 0)
    );
 end entity;
-
 --=============================
 -- Listing 9.12 synchronous
 --=============================
@@ -33,8 +32,8 @@ begin
       end if;
    end process;
    -- next-state logic
-   d1_next <= "0000" when d1_reg=9 else
-              d1_reg + 1;
+   d1_next <= "0000" when d1_reg=9 else 
+               d1_reg + 1;
    d10_next <= "0000" when (d1_reg=9 and d10_reg=9) else
                d10_reg + 1 when d1_reg=9 else
                d10_reg;
