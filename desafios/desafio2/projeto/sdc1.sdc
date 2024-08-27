@@ -1,1 +1,0 @@
-create_clock -name CLK50MHz -period 900MHz [get_ports -no_case {clock*}]

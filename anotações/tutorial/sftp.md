@@ -1,5 +1,0 @@
-# Acessar sftp
-
-```
-sftp://luiza.k12@quartus.sj.ifsc.edu.br//home/luiza.k12
-```
