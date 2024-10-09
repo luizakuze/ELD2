@@ -25,7 +25,7 @@ Durante a disciplina, foram desenvolvidos diversos projetos e códigos relaciona
 
 ## Anotações
 
-O diretório [`anotações/`](anotações/) reúne materiais complementares, incluindo:
+O diretório [`notas/`](notas/) reúne materiais complementares, incluindo:
 - **Estudos**: Resumos teóricos desenvolvidos durante o curso.
 - **Guias**: Contém um guia para criação de testbench e algumas anotações pessoais para utilização de ferramentas.
 - **Materiais**: Materiais de outras fontes utilizados.
